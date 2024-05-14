@@ -24,6 +24,9 @@ int main() {
             cout << num << " ";
         }
         cout << "\n";
+        if(factors.size() == 2 || factors.size() == 1){
+            cout << "The number we tested is a prime! \n";
+        }
         factors.clear();
         number++;
     }
